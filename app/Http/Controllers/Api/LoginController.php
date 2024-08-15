@@ -34,12 +34,4 @@ class LoginController extends Controller
             'redirect' => route('dashboard'),
         ]);
     }
-
-    /**
-     * Show the login page.
-     */
-    public function showLoginPage()
-    {
-        return view('auth.login');
-    }
 }

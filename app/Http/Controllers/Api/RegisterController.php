@@ -32,11 +32,4 @@ class RegisterController extends Controller
             'token' => $token,
         ]);
     }
-
-    /**
-     * Show the register page.
-     */
-    public function showRegisterPage(){
-        return view('auth.register');
-    }
 }
