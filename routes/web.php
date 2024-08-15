@@ -1,6 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\LoginController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Api\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
